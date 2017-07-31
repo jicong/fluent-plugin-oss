@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.name        = "fluent-plugin-oss"
   gem.description = "Aliyun oss output plugin for Fluentd event collector"
   gem.license     = "MIT"
-  gem.homepage    = ""
+  gem.homepage    = "https://github.com/jicong/fluent-plugin-oss"
   gem.summary     = gem.description
   gem.version     = File.read("VERSION").strip
   gem.authors     = ["sjtubreeze"]
