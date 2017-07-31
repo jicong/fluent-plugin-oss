@@ -2,6 +2,7 @@
 
 ## Output: Configuration
 
+```
 <match **>
   @type oss
   oss_key_id xxx
@@ -15,3 +16,4 @@
   time_slice_wait 10m
   time_format %Y%m%dT%H%M%S%z
 </match>
+```
