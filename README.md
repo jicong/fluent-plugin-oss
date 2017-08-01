@@ -24,7 +24,7 @@ gem install fluent-plugin-oss
 </match>
 ```
 
-You can also use it with forest plugin
+You can also use it with the forest plugin.
 
 ```
 <match **>
