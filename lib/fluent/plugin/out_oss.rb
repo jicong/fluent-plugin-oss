@@ -57,6 +57,7 @@ module Fluent
 
     def start
       super
+      Aliyun::Common::Logging.set_log_file('/dev/null')
       @client = Aliyun::OSS::Client.new(
         :endpoint => @oss_endpoint,
         :access_key_id => @oss_key_id,
